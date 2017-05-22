@@ -1,0 +1,45 @@
+body {
+    font: 12pt Arial, Helvetica, sans-serif; /* Шрифт на веб-странице */
+    background: #e1dfb9; /* Цвет фона */
+	margin:0; /*Внешние отступы*/
+	height: 100%;/*Высота*/
+   }
+  
+   #container {
+    width: 1000px; /* Ширина слоя */
+    margin: 0 auto; /* Выравнивание по центру */
+    background: #f0f0f0; /* Цвет фона левой колонки */
+	display: table; 
+	height: 100%;	
+   }
+   #header {
+    font-size: 2.2em; /* Размер текста */
+    text-align: center; /* Выравнивание по центру */
+    padding: 5px; /* Отступы вокруг текста */
+    background: #8fa09b; /* Цвет фона шапки */
+    color: #ffe; /* Цвет текста */
+   }
+   #sidebar {
+    margin-top: 10px; 
+    width: 160px; /* Ширина слоя */
+    padding: 0 20px; /* Отступы вокруг текста */
+	float: left; /* Обтекание по правому краю */
+   }
+   #content {
+    margin-left: 200px; /* Отступ слева */
+    padding: 10px 10px 40px 10px; /* Поля вокруг текста */
+    background: #fff; /* Цвет фона правой колонки */
+	height: 100%;
+	
+   }
+  .content {
+  display: table-row;
+  height: 100%;
+}
+   #footer {
+    background: #8fa09b; /* Цвет фона подвала */
+    color: #fff; /* Цвет текста */
+    padding: 5px; /* Отступы вокруг текста */
+    clear: left; /* Отменяем действие float */
+	margin-top: -28px;
+   }
